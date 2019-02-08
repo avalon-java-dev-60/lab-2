@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+        <form name="adding" method="get" action="servHandler">
+            <fieldset>
+                <legend>Add</legend>
+                   
+            <p>First term (integer type number):<br>
+                <input type="text" size="40" name="fterm">
+            </p> 
+            <p>Second term (integer type number):<br>
+                <input type="text" size="40" name="sterm">
+            </p>
+            <p>
+                <input type="submit" value="Add" name="add">
+                <input type="reset" value="Clear" >
+            </p>
+            </fieldset>
+        </form>
+        <form name="multiplying" method="post" action="servHandler" >
+            <fieldset>
+                <legend>Multiply</legend>
+                
+            <p>First multiplier (integer type number):<br>
+                <input type="text" size="40" name="fmult">
+            </p> 
+            <p>Second multiplier (integer type number):<br>
+                <input type="text" size="40" name="smult">
+            </p>
+            <p>
+                <input type="submit" value="Multiply" name="multiply">
+                <input type="reset" value="Clear" >
+            </p>
+            </fieldset>
+        </form>
+
+    </body>
+</html>
